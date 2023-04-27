@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(193, 245, 228, 1);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;;
+}
+footer{
+    height: 58px;
+    background-color: rgba(168, 113, 99, 1);
+}  
+h1{
+    color: rgba(168, 113, 99, 1);
+}
+#formlog input{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: -60px;
+    height: 48px;
+    width: 245px;
+    font-size: 17px;
+    border:rgba(63, 102, 52, 1);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-radius: 8px;
+}
+#formlog input[type='submit']{
+    color: #fff;
+    width: 310px;
+    background-color: rgba(168, 113, 99, 1);
+    margin-top: 70px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#formlog{
+    margin: auto;
+    justify-content: center;
+    width: 300px;
+
+}
+main{
+    flex: 1;
+}
+#nome,#sobrenome,#senha,#email,#confirmasenha{
+    padding-left: 60px;
+}
+
+#formlog #nomesobre{
+    display: flex;
+    justify-content: space-between;
+}
+
+#nomesobre #nome {
+    width: 80px;
+}
+#nomesobre #sobrenome{
+    width: 150px;
+    height: inherit;
+    padding: 0px;
+}
+#user{
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    left: 193px;
+    top: 414px;
+}
+#mailfoto{
+    position: relative;
+    top: 67px;
+    right: 125px;
+}
+#chave{
+    position: relative;
+    top: 67px;
+    left: -125px;
+}
+
+#chave2{
+    position: relative;
+    top: 67px;
+    left: -125px;
+}
