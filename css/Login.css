@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(193, 245, 228, 1);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+#formlog{
+    margin: auto;
+    justify-content: center;
+    width: 300px;
+}
+
+#mail,#senha{
+    padding-left: 60px;
+}
+
+#formlog input{
+    display: block;
+    margin-top: 18px;
+    height: 50px;
+    width: 245px;
+    font-size: 17px;
+    border:rgba(63, 102, 52, 1);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-radius: 15px;
+}
+#formlog input[type='submit']{
+    color: #fff;
+    width: 310px;
+    background-color: rgba(168, 113, 99, 1);
+}
+footer a{
+    font-weight: 00;
+    color: #fff;
+}
+
+#olho{
+    position: relative;
+    top: -40px;
+    right: -130px;
+}
+
+footer p{
+    color: #fff;
+}
+
+footer{
+    height: 58px;
+    background-color: rgba(168, 113, 99, 1);
+}  
