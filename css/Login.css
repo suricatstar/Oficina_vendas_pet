@@ -60,3 +60,8 @@ footer{
     height: 58px;
     background-color: rgba(168, 113, 99, 1);
 }  
+
+#senhaF{
+    position: relative;
+    top: 0px;
+}
