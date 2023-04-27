@@ -16,6 +16,7 @@ footer{
 }  
 h1{
     color: rgba(168, 113, 99, 1);
+    margin-bottom: -50px;
 }
 #formlog input{
     display: block;
@@ -68,9 +69,9 @@ main{
 #user{
     width: 40px;
     height: 50px;
-    position: absolute;
-    left: 193px;
-    top: 414px;
+    position: relative;
+    right: 130px;
+    top: 67px;
 }
 #mailfoto{
     position: relative;

@@ -25,7 +25,8 @@ main{
 
 #formlog input{
     display: block;
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: -60px;
     height: 48px;
     width: 245px;
     font-size: 17px;
@@ -41,6 +42,7 @@ main{
     width: 310px;
     background-color: rgba(168, 113, 99, 1);
     cursor: pointer;
+    
 }
 footer a{
     font-weight: 00;
@@ -49,8 +51,10 @@ footer a{
 
 #olho{
     position: relative;
-    top: -65px;
+    bottom: 5px;
     right: -110px;
+    cursor: pointer;
+    
 }
 
 footer p{
@@ -64,12 +68,12 @@ footer{
 
 #senhaF{
     position: relative;
-    top: -53px;
-    left: -110px;
+    bottom: -7px;
+    left: -111px;
 }
 
 #emailF{
     position: relative;
-    top: -53px;
+    bottom: -7px;
     left: -125px; 
 }
